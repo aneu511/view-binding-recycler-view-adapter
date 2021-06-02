@@ -1,0 +1,2 @@
+# ViewBindingRecyclerViewAdapter
+RecyclerViewAdapter with ViewBinding
