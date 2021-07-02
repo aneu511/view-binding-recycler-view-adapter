@@ -15,7 +15,7 @@ abstract class SingleTypeAdapter<T, VB : ViewBinding> : MultiItemTypeAdapter<T> 
 
     protected open fun delegateOnViewRecycled(holder: ViewHolder<VB>) {}
 
-    constructor(context: Context) : super(context)
+    constructor(context: Context) : this(context, ArrayList<T>())
 
     constructor(context: Context, data: ArrayList<T>) : super(context, data) {
 
